@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Block UI Styler Dialog Specification for Optellix Parametric Block Plus -->
+<DLX version="1.0" xmlns="http://www.siemens.com/NX/BlockStyler">
+  <Dialog name="OptellixParametricBlock" title="Parametric Block Plus" subTitle="Optellix NX Open Tool">
+    <Group name="groupBlock" title="Block Parameters">
+      <LinearDimension name="doubleLength" label="Length (mm)" value="120.0" min="1.0" max="10000.0"/>
+      <LinearDimension name="doubleWidth" label="Width (mm)" value="80.0" min="1.0" max="10000.0"/>
+      <LinearDimension name="doubleHeight" label="Height (mm)" value="50.0" min="1.0" max="10000.0"/>
+    </Group>
+    <Group name="groupHole" title="Seed Hole Parameters">
+      <LinearDimension name="doubleHoleDiameter" label="Hole Diameter (mm)" value="20.0" min="0.1" max="1000.0"/>
+    </Group>
+    <Group name="groupPattern" title="Hole Pattern Parameters (X-Y Linear)">
+      <Integer name="integerHolesX" label="Holes in X Direction" value="3" min="1" max="100"/>
+      <Integer name="integerHolesY" label="Holes in Y Direction" value="2" min="1" max="100"/>
+      <LinearDimension name="doubleSpacingX" label="Spacing in X (mm)" value="30.0" min="0.1" max="10000.0"/>
+      <LinearDimension name="doubleSpacingY" label="Spacing in Y (mm)" value="25.0" min="0.1" max="10000.0"/>
+    </Group>
+  </Dialog>
+</DLX>

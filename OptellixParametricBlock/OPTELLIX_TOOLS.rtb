@@ -1,0 +1,12 @@
+! Custom Ribbon Tab definition for Siemens NX
+TITLE OPTELLIX_TOOLS
+VERSION 1.0
+
+BEGIN_TAB OPTELLIX_TOOLS "Optellix Tools"
+  BEGIN_GROUP OPTELLIX_PARAMETRIC_GROUP "Parametric Features"
+    BUTTON OPTELLIX_PARAMETRIC_BLOCK_BTN
+    LABEL Parametric Block Plus
+    BITMAP block
+    ACTION OptellixParametricBlock.dll
+  END_GROUP
+END_TAB
