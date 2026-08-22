@@ -117,4 +117,5 @@ If a block ID or its datatype changes, update the matching lookup and value acce
 4. Enter an over-sized pattern; confirm validation rejects it and the existing geometry remains unchanged.
 5. Confirm the top chamfer remains on the four outer top edges after an update.
 
+<img width="1920" height="1010" alt="image" src="https://github.com/user-attachments/assets/88a54576-3c7f-49fd-a56d-7d6d6e83ffd2" />
 
